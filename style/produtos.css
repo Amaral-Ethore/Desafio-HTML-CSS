@@ -24,18 +24,24 @@ img{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
-.menu a:nth-child(3){
-    display: none;
+.logo{
+    width: 100px;
+    outline: 1px solid black;
+    outline-offset: -12px;
+    border-radius: 50%;
 }
 .img{
-    width: 200px;
+    width: 100%;
 }
 .img:hover{
     transform: rotate(30deg);
     transition-duration: 0.5s;
 }
-
+.menu a:nth-child(3){
+    display: none;
+}
 .menu a{
     margin-inline: 10px;
 }
@@ -46,12 +52,14 @@ img{
 .menu{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    height: 25px;
     align-items: center;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(253, 194, 67);
+    outline: 1px solid black;
+    outline-offset: 2px;
+   
 }
-
 .main{
     display: flex;
     flex-direction: column;
@@ -59,7 +67,7 @@ img{
 .input{
     display: flex;
     align-self: center;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 30px;
     width: 110px;
     border-radius: 10px;
@@ -69,6 +77,7 @@ img{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 40px;
+    
     margin-inline: 20px;
     max-width: 600px;
 }
@@ -77,6 +86,7 @@ img{
     justify-content: space-around; 
     flex: 1;
     flex-basis: 34%;
+    outline: 1px solid black;
 }
 .img-prod{
     display: flex;
