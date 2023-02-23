@@ -33,23 +33,23 @@ nav{
 }
 ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
     border: 1px solid;
     padding: 0;
-    padding-block: 10px;
+    padding-block: 5px;
     border-radius: 5px;
     min-width: 200px;
-    height: 1.3em;
     text-align: center;
+    background-color: rgb(253, 194, 67);
 }
 li{
     display: inline-block;
     padding-inline: 20px;
 }
 li a:hover{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 form{
     display: flex;
@@ -64,6 +64,7 @@ form div{
 textarea{
     padding: 12px;
     border-radius: 5px;
+    resize: none;
 }
 textarea:hover{
     border: 1px solid black;
