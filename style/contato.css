@@ -1,37 +1,46 @@
-.header{
+.header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.logo{
+
+.logo {
     display: flex;
     width: 100px;
 }
-.logo img{
+
+.logo img {
     width: 100%;
-}.logo img:hover{
+}
+
+.logo img:hover {
     transform: rotate(20deg);
     cursor: pointer;
 }
-body{
+
+body {
     max-height: auto;
 }
-.main{
+
+.main {
     display: flex;
     justify-content: center;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     margin-right: 25px;
     margin: 0;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,99 +53,118 @@ ul{
     text-align: center;
     background-color: rgb(253, 194, 67);
 }
-li{
+
+li {
     display: inline-block;
     padding-inline: 20px;
 }
-li a:hover{
+
+li a:hover {
     font-size: 1.2em;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 30px;
 }
-form div{
+
+form div {
     display: flex;
     flex-direction: column;
 }
-textarea{
+
+textarea {
     padding: 12px;
     border-radius: 5px;
     resize: none;
 }
-textarea:hover{
+
+textarea:hover {
     border: 1px solid black;
 }
 
-input[type="text"]{
+input[type="text"] {
     padding: 7px;
     border-radius: 5px;
     border: 1px solid black;
 }
-input[type="text"]:hover{
+
+input[type="text"]:hover {
     border: 1px solid black;
 }
-input[type="text"]:focus{
+
+input[type="text"]:focus {
     outline: 1px solid black;
 }
-textarea:focus{
+
+textarea:focus {
     outline: 1px solid black;
 }
-.btn{
+
+.btn {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     flex: 1;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     padding: 5px;
     width: 20%;
     border-radius: 5px;
     min-width: 50px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.644);
 }
-input[type="submit"]:hover{
+
+input[type="submit"]:hover {
     cursor: pointer;
 }
-label{
+
+label {
     font-size: 1rem;
 }
-@media (min-width: 460px){
-    body{
+
+@media (min-width: 460px) {
+    body {
         display: flex;
         justify-content: center;
     }
-    .container{
+
+    .container {
         max-width: 1000px;
         display: flex;
         flex-direction: column;
         flex: 1;
     }
-    .header{
+
+    .header {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    .logo{
+
+    .logo {
         flex-shrink: 1;
         justify-content: flex-start;
     }
 
-    .menu{
+    .menu {
         display: flex;
         max-width: 30%;
         justify-content: flex-end;
     }
-    form{
+
+    form {
         display: flex;
         border: 1px solid black;
         padding: 40px;
         margin-inline: 100px;
     }
-    nav{
+
+    nav {
         margin-right: 23px;
     }
-    
+
 }
