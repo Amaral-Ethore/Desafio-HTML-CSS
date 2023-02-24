@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     border: 0;
@@ -6,55 +6,65 @@ body{
     display: flex;
     justify-content: center;
 }
-a{
+
+a {
     display: flex;
     justify-content: center;
     text-decoration: none;
     color: black;
 }
-img{
+
+img {
     max-width: 80%;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 1000px;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: center;
 }
-.img{
+
+.img {
     width: 200px;
 }
-.img:hover{
+
+.img:hover {
     transform: scale(110%);
     transition-duration: 0.5s;
 }
-.menu{
+
+.menu {
     display: none;
     background-color: rgb(253, 194, 67);
 }
 
 
-h3{
+h3 {
     font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-.main{
+
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.items{
+
+.items {
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 20px;
 }
-.item{
+
+.item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,47 +76,55 @@ h3{
     background-color: burlywood;
     border: 2px solid black;
 }
-.img-item{
+
+.img-item {
     width: 150px;
 }
-.item:hover{
+
+.item:hover {
     background-color: rgb(252, 220, 140);
     cursor: pointer;
     transform: scale(110%);
     transition-duration: 0.3s;
 }
-@media (min-width: 800px){
-    .items{
+
+@media (min-width: 800px) {
+    .items {
         width: 100%;
         flex-direction: row;
         justify-content: space-around;
     }
-    .item{
+
+    .item {
         width: 150px;
         height: 150px;
     }
-    .img-item{
+
+    .img-item {
         width: 100px;
     }
-    .header{
+
+    .header {
         justify-content: space-between;
         align-items: center;
-        margin-inline:100px ;
+        margin-inline: 100px;
     }
-    .menu{
+
+    .menu {
         display: flex;
         border: 2px solid black;
         border-radius: 7px;
         height: 30px;
         align-items: center;
     }
-    .menu a{
+
+    .menu a {
         margin-inline: 10px;
     }
-    .menu a:hover{
-        
+
+    .menu a:hover {
+
         transition-duration: 0.5s;
         font-size: 1.5em;
     }
 }
-  
