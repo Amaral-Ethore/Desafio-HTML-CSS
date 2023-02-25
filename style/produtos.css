@@ -94,7 +94,6 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 40px;
-
     margin-inline: 20px;
     max-width: 600px;
 }
@@ -102,9 +101,7 @@ img {
 .prod {
     display: flex;
     justify-content: space-around;
-    flex: 1;
-    flex-basis: 34%;
-
+    flex-basis: 25%;
 }
 
 .img-prod {
@@ -200,7 +197,6 @@ img {
         background-color: rgb(253, 194, 67);
         padding-block: 10px;
         outline: 1px solid black;
-        outline-offset: 1px;
     }
 
     .img-prod img {
